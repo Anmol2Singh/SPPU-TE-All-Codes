@@ -1,16 +1,25 @@
 create table O_RollCall_Anmol(name varchar(10), roll int, attendance int);
+
 create table N_RollCall_Anmol(name varchar(10), roll int, attendance int);
 
 INSERT INTO O_RollCall_Anmol values ('Anmol', 7, 99);
+
 INSERT INTO O_RollCall_Anmol values ('Adinath', 9, 75);
+
 INSERT INTO O_RollCall_Anmol values ('Raj', 13, 89);
+
 INSERT INTO O_RollCall_Anmol values ('Aditya', 12, 95);
+
 INSERT INTO O_RollCall_Anmol values ('Darshan', 11, 92);
 
 INSERT INTO N_RollCall_Anmol values ('Adinath', 9, 75);
+
 INSERT INTO N_RollCall_Anmol values ('Ram', 72, 62);
+
 INSERT INTO N_RollCall_Anmol values ('Pranav', 49, 74);
+
 INSERT INTO N_RollCall_Anmol values ('Aditya', 12, 95);
+
 INSERT INTO N_RollCall_Anmol values ('Darshan', 11, 92);
 
 SET SERVEROUTPUT ON
